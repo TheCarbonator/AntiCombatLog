@@ -16,7 +16,15 @@ kill-after-timer-expires: false # Kill players after the combat tag timer expire
 blocked-commands:
   enabled: true
   blocked:
-    - blockedcommandhere
+    /tp
+    /tphere
+    /tphereall
+    /tpcoords
+    /tpa
+    /tpahere
+    /tpaccept
+    /tpadeny
+    /tpatoogle
 messages:
   combat-tagged: '&cYou have been combat tagged. If you log out right now, you will not be safe. Your combat tag expires in &e%1'
   un-combat-tagged: '&aYou have been un-combat tagged! You may safely log out now.'
